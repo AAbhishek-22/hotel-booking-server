@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "allowJs": true,
+    "checkJs": false,
+    "module": "commonjs",
+    "target": "es6",
+    "esModuleInterop": true
+  },
+  "include": ["**/*.ts"], 
+  "exclude": ["node_modules", "dist"] // Ensure eslint.config.mjs is ignored
+}
