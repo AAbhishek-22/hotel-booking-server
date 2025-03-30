@@ -40,28 +40,38 @@ Welcome to the **Hotel Booking App Server**! This project serves as the backend 
     ```
 
 4. Start the server:
+   ## Prod
     ```bash
     npm run build
     npm start
     
     ```
+    ## Dev
+   ```
+   npm run start:dev
+   ```
 
-## API Endpoints
+## API Endpoints:
 
 ### API Docs can be seen on swagger documentation
 - http://your-local-host/api-docs
 
-
+## Project Structure:
 ```
 hotel-booking-app-server/
 ├── controllers/    # API logic
+├── databse/        # DB calls layer
+├── helpers/        # Helper function
 ├── models/         # Mongoose schemas
+├── respone/        # API response functions
+├── interfaces/     # Define contracts
 ├── routes/         # API routes
+├── service/        # Service layer containing logics
 ├── middlewares/    # Middleware functions
 ├── config/         # Configuration files
 ├── utils/          # Utility functions
-├── .env            # Environment variables
-├── server.js       # Entry point
+├── env             # Environment variables
+├── app.ts          # Entry point
 ```
 
 ## Contributing
