@@ -86,6 +86,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any inquiries or support, please contact:
 - **Email**: kumarabhishek13691@gmail.com
-- **GitHub**: [AAbhishek-22]((https://github.com/AAbhishek-22))
+- **GitHub**: [AAbhishek-22](https://github.com/AAbhishek-22)
 
 Happy coding!
