@@ -43,28 +43,14 @@ Welcome to the **Hotel Booking App Server**! This project serves as the backend 
     ```bash
     npm run build
     npm start
-     API Documentations will be on URL: http://you-local-host/api-docs
+    
     ```
 
 ## API Endpoints
 
-### Authentication
-- `POST /api/auth/register` - Register a new user
-- `POST /api/auth/login` - Login a user
+### API Docs can be seen on swagger documentation
+- http://your-local-host/api-docs
 
-### Hotels
-- `GET /api/hotels` - Get a list of hotels
-- `GET /api/hotels/:id` - Get details of a specific hotel
-- `POST /api/hotels` - Add a new hotel (Admin only)
-- `PUT /api/hotels/:id` - Update hotel details (Admin only)
-- `DELETE /api/hotels/:id` - Delete a hotel (Admin only)
-
-### Bookings
-- `GET /api/bookings` - Get all bookings for a user
-- `POST /api/bookings` - Create a new booking
-- `DELETE /api/bookings/:id` - Cancel a booking
-
-## Folder Structure
 
 ```
 hotel-booking-app-server/
