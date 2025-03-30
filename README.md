@@ -35,7 +35,7 @@ Welcome to the **Hotel Booking App Server**! This project serves as the backend 
     Create a `.env` file in the root directory and configure the following:
     ```env
     PORT=5000
-    MONGO_URI=your_mongodb_connection_string
+    MONGODB_URL=your_mongodb_connection_string
     JWT_SECRET_KEY=your_jwt_secret
     ```
 
