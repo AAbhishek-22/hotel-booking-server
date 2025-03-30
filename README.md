@@ -31,13 +31,7 @@ Welcome to the **Hotel Booking App Server**! This project serves as the backend 
     npm install
     ```
 
-3. Set up environment variables:
-    Create a `.env` file in the root directory and configure the following:
-    ```env
-    PORT=5000
-    MONGODB_URL=your_mongodb_connection_string
-    JWT_SECRET_KEY=your_jwt_secret
-    ```
+
 
 4. Start the server:
    ## Prod
