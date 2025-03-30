@@ -16,7 +16,7 @@ Welcome to the **Hotel Booking App Server**! This project serves as the backend 
 - **Database**: MongoDB
 - **Authentication**: JSON Web Tokens (JWT)
 - **Environment Management**: dotenv
-- **Other Tools**: Mongoose, bcrypt, etc.
+- **Other Tools**: Mongoose, bcrypt, swagger etc.
 
 ## Installation
 
@@ -41,7 +41,9 @@ Welcome to the **Hotel Booking App Server**! This project serves as the backend 
 
 4. Start the server:
     ```bash
+    npm run build
     npm start
+     API Documentations will be on URL: http://you-local-host/api-docs
     ```
 
 ## API Endpoints
